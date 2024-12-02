@@ -1,0 +1,68 @@
+/* Sayfa genel düzeni */
+.page-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .page-container label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .page-container input,
+  .page-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .page-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .page-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .page-container .status-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .page-container .status-message p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .page-container .status-message p.loading {
+    color: #007bff;
+  }
+  
+  .page-container .status-message p.failed {
+    color: #ff0000;
+  }
+  
+  .page-container .status-message p.succeeded {
+    color: #28a745;
+  }
+  
